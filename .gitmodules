@@ -1,0 +1,28 @@
+[submodule "lib/cmsis_core"]
+	path = lib/cmsis_core
+	url = https://github.com/STMicroelectronics/cmsis_core
+	shallow = true
+[submodule "lib/cmsis_device_f4"]
+	path = lib/cmsis_device_f4
+	url = https://github.com/STMicroelectronics/cmsis_device_f4
+	shallow = true
+[submodule "lib/stm32f4xx_hal_driver"]
+	path = lib/stm32f4xx_hal_driver
+	url = https://github.com/STMicroelectronics/stm32f4xx_hal_driver
+	shallow = true
+[submodule "lib/usb_host"]
+	path = lib/usb_host
+	url = https://github.com/STMicroelectronics/stm32_mw_usb_host
+	shallow = true
+[submodule "lib/fatfs"]
+	path = lib/fatfs
+	url = https://github.com/STMicroelectronics/stm32_mw_fatfs
+	shallow = true
+[submodule "lib/scummvm"]
+	path = lib/scummvm
+	url = https://github.com/scummvm/scummvm
+	shallow = true
+[submodule "lib/freertos"]
+	path = lib/freertos
+	url = https://github.com/FreeRTOS/FreeRTOS-Kernel.git
+	shallow = true
