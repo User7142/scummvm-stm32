@@ -110,8 +110,8 @@ loads of 5 kΩ and more; headphones work, but they are quiet.
 Requirements: Arm GNU Toolchain 15.3 (`firmware/Makefile`, variable `TOOLCHAIN`), stlink, OpenOCD.
 
 ```bash
-git clone --recurse-submodules https://github.com/User7142/monkey-island-stm32.git
-cd monkey-island-stm32/firmware
+git clone --recurse-submodules https://github.com/User7142/scummvm-stm32.git
+cd scummvm-stm32/firmware
 make                 # configures and builds ScummVM (takes a while the first time), loader, MONKEY.BIN
 make flash           # writes the loader to the flash
 cp -X build/MONKEY.BIN /Volumes/<stick>/
